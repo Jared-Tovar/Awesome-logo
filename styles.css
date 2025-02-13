@@ -7,8 +7,9 @@
 .menu-container {
     color: #fff;
     background-color: #5995DA;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
+    flex: 1;
     justify-content: center;
 }
 
@@ -27,6 +28,7 @@
     background-color: #D6E9FE;
     display: flex;
     justify-content: center;
+    flex: 1;
 
 }
 
@@ -36,6 +38,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
+    padding: 20px;
 }
 
 .photo-grid-container {
